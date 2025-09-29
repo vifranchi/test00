@@ -1,9 +1,180 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Informatica Applicata</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index of Informatica Applicata Sezione C2 2025-2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            line-height: 1.6;
+            padding-top: 70px; 
+            display: flex;
+        }
+
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #283f74;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .menu-left a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fffbfb;
+            font-weight: 500;
+            transition: transform 0.2s, color 0.2s;
+        }
+
+        .menu-left a:hover {
+            transform: scale(1.1);
+            color: #d4d4d4;
+        }
+
+        .menu-title {
+            font-size: 1em;
+            color: #fffdfd;
+            font-weight: bold;
+        }
+
+        
+        .sidebar {
+            width: 20%;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+
+        .sidebar li {
+            background-color: white;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .sidebar li a {
+            text-decoration: none;
+            color: #004080;
+            font-weight: 500;
+            display: block;
+        }
+
+        .sidebar li:hover {
+            background-color: #e4e3e3;
+            transform: translateX(5px);
+        }
+
+        /* Contenuto principale */
+        .main-content {
+            width: 80%;
+            padding: 20px;
+        }
+
+        .main-content h1 {
+            margin-bottom: 20px;
+            font-size: 1.0em;
+            color: #222;
+            text-align: left;
+        }
+
+        .main-content p {
+            color: #140b4e;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .projects-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.05em;
+            color: #004080;
+            text-decoration: none;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        .projects-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #004080;
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.projects-link:hover {
+    text-decoration: underline;
+    color: #004080;
+}
+.info-block p {
+  margin-bottom: 4px;
+  text-align: left;
+  color: black;
+  font-size: 1em;
+}
+    </style>
 </head>
+
 <body>
-<h1>Esempio di pagina HTML</h1>
-<p align="center">Questa è una banale pagina HTML </p>
+    
+    <header>
+        <div class="menu-left">
+            <a href="#">Homepage</a>
+            <a href="https://www.polimi.it" target="_blank">Sito Politecnico</a>
+            <a href="#">Calendario</a>
+        </div>
+        <div class="menu-title">Index of Informatica Applicata C2 2025-2026</div>
+    </header>
+
+    
+    <div class="sidebar">
+        <ul>
+            <li><a href="lezione1/lezione1.html">Class 1</a></li>
+            <li><a href="lezione2/lezione2.html">Class 2</a></li> 
+            <li><a href="lezione3/lezione3.html">Class 3</a></li> 
+            <li><a href="lezione4/lezione4.html">Class 4</a></li> 
+            <li><a href="lezione5/lezione5.html">Class 5</a></li> 
+            <li><a href="lezione6/lezione6.html">Class 6</a></li> 
+        </ul>
+        <a class="projects-link" href="group-projects/index.html">
+            CLICK HERE TO SEE THE GROUP PROJECTS OUTCOMES
+        </a>
+    </div>
+
+    
+    <div class="main-content">
+        <h1>Index of Informatica Applicata</h1>
+        <div class="info-block">
+        <p> <b>Anno accademico</b>: 2025/2026 </p>
+        <p> <b>Docenti</b>: Conficconi Davide </p>
+        <p> <b>Assistenti</b>: Nazzari Alessandro <p></p>
+        <p> <b>Sezione</b>: C2 </p>
+        </div>
+
+        
+    </div>
 </body>
 </html>
